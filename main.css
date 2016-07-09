@@ -1,0 +1,182 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+}
+body
+{
+    background: rgba(226, 226, 226, 0.39);
+}
+.top
+{
+    height: 80px;
+    background: #1961b0;
+    padding-left: 150px;
+}
+.left
+{
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #1961b0;
+    margin-left: 100px;
+    border-radius:10px;
+    float: left;
+}
+.title
+{
+    font-size: 60px;
+    color: white;
+    font-family: "Plantagenet Cherokee";
+}
+p
+{
+    height: 50px;
+    margin-top: 10px;
+    text-align:center ;
+    line-height: 50px;
+    border-bottom:1px solid #1961b0 ;
+    font-family:微软雅黑;
+    color: rgba(0,0,0,0.65);
+    font-size: 20px;
+}
+.header
+{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family:"Palatino Linotype";
+    color: rgba(0, 0, 0, 0.65);
+}
+.right
+{
+    width: 700px;
+    height: 500px;
+    float: right;
+    margin-right: 100px;
+    border: 1px solid #1961b0;
+    border-radius:10px;
+    margin-top: 50px;
+}
+.right_title
+{
+    height: 20px;
+    width: 433px;
+    margin: 0 auto;
+    margin-top:50px;
+    padding:15px 30px;
+    padding-bottom: 20px;
+    /*border: 1px solid #1961b0;*/
+}
+.prefix
+{
+    font-size: 20px;
+    font-family: 黑体;
+    line-height: 30px;
+    color: rgba(0,0,0,0.65);
+    float: left;
+}
+.right_time
+{
+    height: 20px;
+    width: 433px;
+    margin: 0 auto;
+    padding:15px 30px;
+    padding-bottom: 20px;
+}
+.blank
+{
+    width: 330px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #1961b0;
+    border-radius:5px;
+}
+.right_content
+{
+    width: 433px;
+    height: 200px;
+    margin:20px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.null
+{
+    width: 330px;
+    height: 180px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #1961b0;
+    border-radius:5px;
+}
+button
+{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #1961b0;
+    background: rgba(240, 240, 240, 0.39);
+    border-radius:5px;
+}
+.butt
+{
+    width: 500px;
+    height: 120px;
+    margin-left: 220px;
+    padding-top: 10px;
+}
+.text
+{
+    margin: 0 30px;;
+    font-size: 15px;
+    color:rgba(0,0,0,0.65);
+    font-family: 黑体;
+}
+@media screen and (max-width: 960px) {
+    .top {
+        width: 100%;
+        padding-left:0;
+    }
+   .top .title{
+        text-align: center;
+    }
+    .left{
+        width:97%;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    .right{
+        width:97%;
+        margin-right:0;
+        margin-top: 10px;
+        padding-left: 0%;
+    }
+    .right_title,.right_time,.right_content
+    {
+        width:84%;
+        padding-left:18%;
+    }
+    .butt
+    {
+        width:80%;
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+    .blank,.null
+    {
+        width:112%;
+        margin-left:0;
+    }
+    .prefix
+    {
+        width:70%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .text
+    {
+        margin:0 10px;
+    }
+}
